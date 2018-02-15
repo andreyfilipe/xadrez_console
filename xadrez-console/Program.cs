@@ -10,6 +10,11 @@ namespace xadrez_console
     {
         static void Main(string[] args)
         {
+            Console.Write("Digite seu nome");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Bem vindo, " + nome);
+
+            Console.ReadLine();
         }
     }
 }
